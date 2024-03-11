@@ -1,0 +1,44 @@
+h5 {
+  text-align: center;
+  margin: 2px;
+  padding: 5px;
+}
+h4 {
+  margin: 0;
+  padding: 5px;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 1rem;
+  table-layout: fixed;
+}
+
+th {
+  background-color: #ffa500;
+}
+
+td {
+  border: 1px solid rgb(37, 37, 37);
+  width: 300px;
+}
+tr {
+  height: 1rem;
+}
+
+.header {
+  background-color: #ffa500;
+  color: white;
+  padding: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h2 {
+  padding-left: 10px;
+}
+
+.header button {
+  margin-right: 10px;
+}

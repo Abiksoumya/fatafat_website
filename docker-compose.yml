@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+  client:
+    container_name: client-user
+    restart: unless-stopped
+    image: client-user-production:1.0.0
+    build:
+      context: website
+      target: builder
+      dockerfile: Dockerfile
+    ports:
+      - 5173:5173
+    networks:
+      - shared-network
+networks:
+  shared-network:
