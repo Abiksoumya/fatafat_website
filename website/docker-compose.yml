@@ -2,11 +2,11 @@ version: "3.8"
 
 services:
   client:
-    container_name: client-user
+    container_name: client
     restart: unless-stopped
-    image: client-user-production:1.0.0
+    image: client-production:1.0.0
     build:
-      context: website
+      context: .
       target: builder
       dockerfile: Dockerfile
     ports:
