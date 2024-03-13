@@ -6,7 +6,7 @@ services:
     restart: unless-stopped
     image: client-production:1.0.0
     build:
-      context: .
+      context: website
       target: builder
       dockerfile: Dockerfile
     ports:

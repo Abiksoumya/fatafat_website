@@ -3,32 +3,25 @@ interface CellData {
   point: number;
 }
 
-function TableCell({ winNumber, winPatti, slot, user }: any) {
-  console.log("patti", winNumber, winPatti, slot, user);
+function TableCell({ patti, point }: CellData) {
   return (
     <td>
       <h5>
-        <strong>{winNumber}</strong>
+        <strong>{patti}</strong>
       </h5>
-      <h5>{winPatti}</h5>
-      <h5>{slot}</h5>
-
-      
+      <h5>{point}</h5>
     </td>
   );
 }
 
 export default function Table({
-
   heading,
   data,
 }: {
   heading: string;
   data: CellData[];
 }) {
-
-  console.log("data inside table1111",data)
-  
+  console.log("data inside table9999999999",data)
   return (
     <div style={{ overflowX: "auto" }}>
       <table>
@@ -41,15 +34,9 @@ export default function Table({
             </th>
           </tr>
           <tr>
-          {data?.data.map(({ _id, winNumber, winPatti, slot, user }) => (
-  <TableCell
-    key={_id} // Assuming _id is unique for each item
-    winNumber={winNumber}
-    winPatti={winPatti}
-    slot={slot}
-    user={user}
-  />
-))}
+            {data.map(({ patti, point }) => (
+              <TableCell patti={patti} point={point} />
+            ))}
           </tr>
         </tbody>
       </table>
