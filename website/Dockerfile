@@ -6,6 +6,10 @@ WORKDIR /app
 
 COPY package.json .
 COPY package-lock.json .
+RUN chown -R root:root /app
+
+# Change to the root user
+USER root
 
 
 EXPOSE 5173
