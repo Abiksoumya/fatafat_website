@@ -8,17 +8,20 @@ export default function Tables() {
   
 
   return (
-<div>
-  {data?.map((item) => (
-    <Table
-      key={item.date}
-      heading={item.date}
-      data={item.data
-        .map(({ slot, winningPatti, winningPoint }) => {
-          return { slot, patti: winningPatti, point: winningPoint };
-        })}
-    />
-  ))}
+<div className="m-8 -mt-11 ">
+  {data
+    ?.sort((a, b) => new Date(b.date) - new Date(a.date)) // Sort the data array by date in descending order
+    .map((item, index) => (
+      <Table
+        key={index}
+        heading={item.date}
+        data={item.data.map(({ slot, winningPatti, winningPoint }) => ({
+          slot,
+          patti: winningPatti,
+          point: winningPoint,
+        }))}
+      />
+    ))}
 </div>
 
 

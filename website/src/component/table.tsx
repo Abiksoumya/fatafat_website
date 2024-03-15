@@ -26,10 +26,10 @@ export default function Table({
     <div style={{ overflowX: "auto" }}>
       <table>
         <tbody>
-          <tr>
-            <th colSpan={10}>
-              <h4>
-                <strong>{heading}</strong>
+          <tr className="">
+            <th colSpan={10} className="border border-black">
+              <h4 className="">
+                <strong className="">{heading}</strong>
               </h4>
             </th>
           </tr>
