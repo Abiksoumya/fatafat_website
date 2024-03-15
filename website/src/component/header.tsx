@@ -1,6 +1,14 @@
 import Navbar from "./Navbar";
+import { useNavigate } from 'react-router-dom';
 
 export default function Header() {
+  const navigate = useNavigate();
+  const redirectToOldResult = () => {
+    navigate('/old-result');
+  };
+  const redirectToPatti = () => {
+    navigate('/patti');
+  };
   return (
     <>
     <Navbar/>
@@ -11,14 +19,14 @@ export default function Header() {
   </div>
   
   {/* Refresh button */}
-  <div>
+  <button onClick={redirectToOldResult}>
     <h2>Old Result</h2>
-  </div>
+  </button>
   
   {/* Tatti List */}
-  <div>
+  <button onClick={redirectToPatti}>
     <h2>Patti</h2>
-  </div>
+  </button>
 </div>
     </>
    
