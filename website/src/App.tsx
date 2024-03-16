@@ -7,6 +7,7 @@ import Layout from "./component/layout";
 import OldResult from "./component/old.result";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Patti from "./component/patti";
+import Tips from "./component/tips";
 
 function App() {
   const queryClient = new QueryClient();
@@ -21,6 +22,8 @@ function App() {
       <Route path="/" element={<Layout />} />
       <Route path="/old-result" element={<OldResult />} />
       <Route path="/patti" element={<Patti />} />
+      <Route path="/tips" element={<Tips />} />
+
 
     </Routes>
   </Router>

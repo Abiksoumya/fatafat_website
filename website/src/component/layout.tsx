@@ -6,7 +6,6 @@ import Info from "./info";
 import OldResult from "./old.result";
 
 export default function Layout () {
-    const queryClient = new QueryClient();
 
     return(
         <>

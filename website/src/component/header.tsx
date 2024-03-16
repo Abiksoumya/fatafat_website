@@ -9,14 +9,17 @@ export default function Header() {
   const redirectToPatti = () => {
     navigate('/patti');
   };
+  const redirectToTips = () => {
+    navigate('/tips');
+  };
   return (
     <>
     <Navbar/>
      <div className="header flex justify-around text-blue-800  m-8 border border-black">
   {/* Tips */}
-  <div>
+  <button onClick={redirectToTips}>
     <h2>Tips</h2>
-  </div>
+  </button>
   
   {/* Refresh button */}
   <button onClick={redirectToOldResult}>
