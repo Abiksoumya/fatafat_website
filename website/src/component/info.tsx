@@ -21,10 +21,16 @@ export default function Info() {
             <strong>5th=3:30. pm 🕓</strong>
           </h4>
           <h4>
+            <strong>7th=5:00 pm 🕖</strong>
+          </h4>
+          <h4>
             <strong>7th=6:30 pm 🕖</strong>
           </h4>
           <h4>
             <strong>8th=8:00. pm 🕤</strong>
+          </h4>
+          <h4>
+            <strong>8th=9:30. pm 🕤</strong>
           </h4>
         </li>
       </ul>

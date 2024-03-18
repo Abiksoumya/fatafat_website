@@ -34,6 +34,7 @@ export default function Table({
     "05:00",
     "06:30",
     "08:00",
+    "09:30"
   ];
 
 
