@@ -77,12 +77,12 @@ export default function Table({
         <tr className="">
           <th colSpan={10} className="border border-black">
             <h4 className="">
-              <strong className="">{heading}</strong>
+              <strong className="bg-green-500">{heading}</strong>
             </h4>
             {
               timeSlots.map((item, index) =>{
                 return (
-                  <td key={index}>
+                  <td key={index} className="bg-orange-500">
                     <h5>
                       <strong>{item}</strong>
                     </h5>
@@ -92,7 +92,7 @@ export default function Table({
             }
           </th>
         </tr>
-        <tr>
+        <tr className="b">
           {/* Iterate over time slots and render TableCell only if data exists for that time slot */}
           {timeSlots.map((timeSlot) => {
             const matchingData = filteredData.find((item) => convertSlotToHHMM(item.slot) === timeSlot);

@@ -3,7 +3,7 @@ import Table from "./table";
 
 export default function Tables() {
   const { data } = useResult();
-  console.log("data inside table",data)
+  // console.log("data inside table",data)
 
   
 
