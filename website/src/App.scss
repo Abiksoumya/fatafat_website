@@ -1,0 +1,101 @@
+body {
+  background-color: #f6f6f6 !important;
+}
+
+@media (min-width: 1480px) {
+   .container-xl,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 1350px !important;
+  }
+}
+
+.customShadow{
+  box-shadow: 0 6px 15px rgba(36, 37, 38, 0.08);
+  border-radius: 16px !important;
+}
+
+.mainNav {
+  a {
+    font-weight: 600;
+  }
+}
+
+.tableTypeOne {
+  background-color: rgba(#000000, 0.1);
+  box-shadow: 0 6px 15px rgba(36, 37, 38, 0.08);
+  border-radius: 16px;
+
+  td {
+    border: 1px solid rgba(#fff, 0.4);
+  }
+
+  &.todayTable {
+    th {
+      // background-color: #ff0;
+      background: linear-gradient(45deg, #fcff9e 0%, #c67700 100%);
+    }
+
+    .head {
+      background-color: rgb(205, 59, 59);
+    }
+  }
+
+  th {
+    animation: bgAni infinite ease-in-out 5s;
+
+    background-image: linear-gradient(to top, #a7a6cb 0%, #8989ba 52%, #8989ba 100%);
+  }
+
+  .head {
+    background-color: rgb(38, 36, 36);
+    color: rgb(238, 238, 35);
+  }
+
+  .dateBox {
+    width: 60px;
+    position: relative;
+
+    h4 {
+      transform: rotate(-90deg);
+      margin-top: 0;
+      margin-bottom: 0;
+      position: absolute;
+      left: -31px;
+      top: 83px;
+      white-space: nowrap;
+    }
+  }
+
+  .lastRow {
+    td {
+      height: 70px;
+      text-align: center;
+      background-color: rgb(247, 200, 222);
+
+      &:nth-child(even) {
+        background-color: rgb(200, 247, 237);
+      }
+    }
+  }
+
+  .lastRowTwo {
+    td {
+      height: 70px;
+      text-align: center;
+      background-color: rgb(200, 247, 237);
+
+      &:nth-child(even) {
+        background-color: rgb(247, 200, 222);
+      }
+    }
+  }
+}
+
+@keyframes bgAni {
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}

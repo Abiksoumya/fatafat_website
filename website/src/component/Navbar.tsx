@@ -1,43 +1,42 @@
-import { useNavigate } from 'react-router-dom';
-
-export default function Navbar (){
+import { Link, useNavigate } from 'react-router-dom';
+import Logo from '../assets/logo1.jpg';
+export default function Navbar() {
   const navigate = useNavigate();
   const redirectToOldResult = () => {
     navigate('/');
   };
-    return(
-        <>
-        <nav className="bg-white border ml-8 mr-8 ">
-  <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-    <div className="relative flex h-16 items-center justify-between">
-      <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
-        <button  type="button" className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
-          <span className="absolute -inset-0.5"></span>
-          <span className="sr-only">Open main menu</span>
-         
-          <svg className="block h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" aria-hidden="true">
-            <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-          </svg>
-         
-          <svg className="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" aria-hidden="true">
-            <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-          </svg>
-        </button>
-      </div>
-      <button onClick={redirectToOldResult}>
-      <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-        <div className="flex flex-shrink-0 items-center">
-          <img className="h-8 w-auto" src="logo14.jpg" alt="Your Company"/>
-        </div> 
-      </div>
+  return (
+    <>
+      <nav className=" bg-white border py-3 mainNav ">
 
-      </button>
-      
-    </div>
-  </div>
+        <div className="container-fluid">
+          <div className="row align-items-center">
+            <div className="col-auto">
+              <button className='btn shadow-none' onClick={redirectToOldResult}>
+                <img className="h-16 w-auto" src={Logo} alt="Your Company" />
+              </button>
+            </div>
+            <div className="col-auto ml-auto">
+              <div className="row">
+                <div className="col-auto">
+                  <Link to="tips"  className='btn btn-warning shadow-none'  >Tips</Link>
+                </div>
+                <div className="col-auto">
+                  <Link to="old-result" className='btn btn-warning shadow-none'  >Old Result</Link>
+                </div>
+                <div className="col-auto">
+                  <Link to="patti" className='btn btn-warning shadow-none'  >Patti</Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
- 
-</nav>
-</>
-    )
+      </nav>
+    </>
+  )
 }
+
+// <Route path="/old-result" element={<OldResult />} />
+//       <Route path="/patti" element={<Patti />} />
+//       <Route path="/tips" element={<Tips />} />

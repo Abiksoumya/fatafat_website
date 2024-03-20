@@ -1,38 +1,43 @@
-import Header from "./header";
+import Img1 from '../assets/satta-king-black.gif';
 
-export default function Tips(){
+
+export default function Tips() {
     return (
         <>
-        <Header/>
-        <body className="bg-gray-100 p-10">
-    <div className="container mx-auto px-4 py-8">
-        <div className="bg-white rounded-lg shadow-md p-6">
-            <h1 className="text-3xl font-bold mb-4">Welcome to our Group!</h1>
-            <p className="text-gray-700 mb-6">Welcome to all new members joining our group. We provide the first result and
-                tips for all newcomers.</p>
-            <p className="text-red-500 font-bold mb-6">Note: Avoid any payment to prevent falling into fraudulent activities.
-            </p>
-            <hr className="my-6"/>
-            <h2 className="text-xl font-bold mb-4">Latest Updates</h2>
-            <p className="text-gray-700 mb-4">Stay tuned for the latest tips and results. Refresh the page for updates.</p>
-            <button className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">Join WhatsApp Group</button>
-        </div>
-        <div className="mt-8">
-            <h2 className="text-xl font-bold mb-4">Solid Tips for 3rd Bazi</h2>
-            <p className="text-gray-700">Solid tips for the 3rd bazi will be provided soon. Please wait for updates.</p>
-        </div>
-        <div className="mt-8">
-            <h2 className="text-xl font-bold mb-4">Free Tips</h2>
-            <p className="text-gray-700">Join our WhatsApp group for free tips. Refresh the page for updates.</p>
-        </div>
-        <div className="mt-8">
-            <h2 className="text-xl font-bold mb-4">Game Tips</h2>
-            <p className="text-gray-700">Game tips are updated on this page. Visit this page before every game for
-                ?? Dada ?? tips. Many people are winning. Tips for the next game are posted here anytime, so visit this
-                page or bookmark it.</p>
-        </div>
-    </div>
-</body>
+            <div className="container pt-4">
+
+                <div className="card customShadow border-0 mb-5">
+                    <div className="card-body">
+                        <p>
+                            দাদার নমস্কার আমাদের গ্রুপে আপনাদের ওয়েলকাম
+
+                            আপনারা যারা যারা নতুন জয়েন হয়েছেন আমাদের গ্রুপে সবথেকে first রেজাল্ট দেওয়া হয় এবং টিপস দেওয়া হয়
+
+                            আর দাদারা আমাদের গ্রুপে অনেক চিটিংবাজরা ভর্তি আছে আপনারা কাউকে কোনো রকমে টাকা পেমেন্ট করবেন না আপনারা যদি পেমেন্ট করে ফাঁদ পড়ে যান তাহলে আমাদের কোন দায়ী নয়।
+                        </p>
+                        <h4 className="text-danger">Dada HELP KAR RAHA APP LOGON KI WEBSITE VISIT KAR K RAKHEN. <br /> Refresh karo bar bar plzz whatsapp group join kare</h4>
+
+                        <div className="py-4 mb-4">
+                            <img src={Img1} alt="" className='mb-3' />
+                            <button className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">Join WhatsApp Group</button>
+
+                        </div>
+                        <p>
+                            দাদার নমস্কার আমাদের গ্রুপে আপনাদের ওয়েলকাম
+
+                            আপনারা যারা যারা নতুন জয়েন হয়েছেন আমাদের গ্রুপে সবথেকে first রেজাল্ট দেওয়া হয় এবং টিপস দেওয়া হয়
+
+                            আর দাদারা আমাদের গ্রুপে অনেক চিটিংবাজরা ভর্তি আছে আপনারা কাউকে কোনো রকমে টাকা পেমেন্ট করবেন না আপনারা যদি পেমেন্ট করে ফাঁদ পড়ে যান তাহলে আমাদের কোন দায়ী নয়।
+                        </p>
+                        <h5>
+                            THORI DER MAIN AJJ KA FIST BAAZI TIP AJAYE GA REFRESH KARTE RAHEN PAGE KO
+                        </h5>
+                        <h4 className='text-secondary'>
+                            YAHAN PAR HAR GAME KI tips update ki jati hai . is page ko visit kar k rakaha kae her game se pehle yahan par ?? Dada?? ki tip ajati ha lakhon log jeet rahe hain . kisi bhi waqt is page par next game  ki tip ajati ha so is page ko visit kar k rakahen ya bookmark karlen
+                        </h4>
+                    </div>
+                </div>
+            </div>
         </>
     )
 }
