@@ -4,16 +4,16 @@ function TableCell({ key, patti }) {
   return (
     <td key={key} className="test">
       {/* <p>Time Slot: {slot}</p> */}
-      <h5 className="mb-0">
+      <h4 className="mb-0">
         <strong>{patti}</strong>
-      </h5>
+      </h4>
     </td>
   );
 }
 function TableCellTwo({ key, point }) {
   return (
     <td key={key} className="test">
-      <h5 className="mb-0">{point}</h5>
+      <h4 className="mb-0"><strong>{point}</strong></h4>
     </td>
   );
 }
@@ -108,14 +108,16 @@ export default function Table({ heading, data, }) {
 
 
 
-      <div className={`table-responsive  tableTypeOne my-5 ${checkToday(heading) === 'Today Result' ? 'todayTable' : ''}`}>
+      <div className={`table-responsive  tableTypeOne my-3 my-md-5 ${checkToday(heading) === 'Today Result' ? 'todayTable' : ''}`}>
         <table className="table mb-0">
           <tbody>
             <tr className="">
               <th rowSpan={3} className="dateBox">
-                <h4 className="">
+               <div className="dateWrap">
+               <h4 className="">
                   {checkToday(heading)}
                 </h4>
+               </div>
 
               </th>
               {
