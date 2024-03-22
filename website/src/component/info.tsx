@@ -1,14 +1,11 @@
-import Logo2 from '../assets/logo2.jpg';
 
 export default function Info() {
   return (
     <div className="container">
-      <figure className=''>
-        <img src={Logo2} className='d-block mx-auto img-fluid' alt="" />
-      </figure>
+    
       <div className="card customShadow border-0 mb-5">
         <div className="card-body">
-          <h2>Bengal FF Fatafat Result Time Table ?</h2>
+          <h2>Bengal FF Result Time Table ?</h2>
           <hr />
           <h4>🤔🤫 NEW TIME 🤫🤔</h4>
           <h4>
@@ -36,38 +33,16 @@ export default function Info() {
             <strong>8th=8:00. pm 🕤</strong>
           </h4>
           <h4>
-            <strong>8th=9:30. pm 🕤</strong>
+            <strong>9th=9:30. pm 🕤</strong>
           </h4>
 
           <hr />
 
-          <p>
-            👌 Bengali ff sabse pahle This is the ✅ Bengali photo fort official
-            ⭐⭐⭐ No# 1✅✅✅ website🌏 for all Bengali people who want to get fast
-            Bengali ff fatafat result. Here you can see all today and previous all
-            old and new results online free. This is the main page where you can get
-            today result and past 10-day result Bengal photo fort. car accident
-            lawyers dollars billion or trillion{" "}
-            <em>
-              <strong>$$$$$$. </strong>Insurance CAR you can win easily by this
-              website. Insurance policy is very simple. .
-            </em>
-            Bengali Fatafat Today Result ❤️ Bengal FF Result Sabse Pahle Yahi Par
-            Aata Hai  Fatafat Chart Dekho ❤️ Patti Aur
-            Single Ke Sath Chart 2020-21
-          </p>
-          <p>Bengali FF Result Live</p>
-          <p>
-            Bengali fatafat result{" "}
-            <a href="https://web.archive.org/web/20220309002952/https://bengaleff.com/">
+          <p>👌 Bengal FF sabse pahle This is the ✅ Bengal photo fort official ⭐⭐⭐ No# 1✅✅✅ website🌏 for all Bengal people who want to get fast Bengal FF result. Here you can see all today and previous all old and new results online free. This is the main page where you can get today result and past 10-day result Bengal photo fort. car accident lawyers dollars billion or trillion <em><strong>$$$$$$. </strong>Insurance CAR you can win easily by this website. Insurance policy is very simple. .</em>Bengal FF Today Result ❤️  Bengal FF Result Sabse Pahle Yahi Par Aata Hai ❤️  বেঙ্গল FF   ❤️  बंगाल  FF Chart Dekho ❤️  Patti Aur Single Ke Sath Chart 2020-21 ❤️  বেঙ্গল FF  ❤️  বেঙ্গল FF  ❤️</p>
+          <p>Bengal FF result   <a href="https://web.archive.org/web/20220309002952/https://bengaleff.com/">
               <strong>bengaleff.com</strong>
-            </a>{" "}
-            result Satta game is the greatest and most playing game everywhere on
-            the country. Not just single persons of West Bengali play the game yet
-            additionally other state’s kin play it well indeed. This game is
-            unlawful. However, a great many individuals play the game and procure a
-            prespecified reward.
-          </p>
+            </a> result Satta game is the greatest and most playing game everywhere on the country. Not just single persons of West Bengal play the game yet additionally other state’s kin play it well indeed. This game is unlawful. However, a great many individuals play the game and procure a prespecified reward.</p>
+           
         </div>
       </div>
 
@@ -75,7 +50,7 @@ export default function Info() {
       <div className="card customShadow border-0 mb-5">
         <div className="card-body">
           <h3>
-            <strong>Bengal FataFat Tips for free</strong>
+            <strong>Bengal FF Tips for free</strong>
           </h3>
           <p>
             in order to gain the trust of the audience who will follow you and to be
@@ -117,7 +92,7 @@ export default function Info() {
                   <p>
                     On the home page of this satta portal, you will find a large
                     previous record table of the results. In this table, you will become
-                    able to find out BengaliFF Old Results of previous days. If you want
+                    able to find out Bengali FF Old Results of previous days. If you want
                     to check any specific month or day result then simply scroll the
                     page down and in the table find out that day. Now you can see all
                     the results of that day on the table. doing some research on the
@@ -131,9 +106,9 @@ export default function Info() {
                     <strong>Bengali FF Online Result</strong>
                   </h3>
                   <p>
-                    Bengal ff sabse pahle This is the ✅ Bengal photo fort official
+                    Bengal FF sabse pahle This is the ✅ Bengal photo fort official
                     ⭐⭐⭐ No# 1✅✅✅ website🌏 for all Bengali people who want to get
-                    fast Bengal ff fatafat result.
+                    fast Bengal FF result.
                   </p>
                   <h3>
                     <strong>Why People Play Bengali fatafot</strong>
