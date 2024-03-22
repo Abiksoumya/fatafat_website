@@ -169,8 +169,23 @@ body {
 
 
 @media (max-width:767px) {
+  :root{
+    font-size: 10px;
+  }
+  .mainNav button img {
+    height: 2rem;
+}
   .table-show-in-mobile {
-    font-size: 5px;
+    font-size: 4px;
+
+    .lgo3{
+      width: 50%;
+    }
+  }
+}
+@media (max-width:575px) {
+  .table-show-in-mobile {
+    font-size: 3px;
 
     .lgo3{
       width: 50%;
