@@ -7,6 +7,7 @@ export default function Tables() {
 
   return (
     <div className="container-lg table-show-in-mobile ">
+     
       {data
         ?.sort((a, b) => new Date(b.date) - new Date(a.date)) // Sort the data array by date in descending order
         .map((item, index) => {

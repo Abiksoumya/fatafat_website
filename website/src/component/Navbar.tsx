@@ -16,8 +16,9 @@ export default function Navbar() {
                 <img className="  w-auto" src={Logo} alt="Your Company" />
               </button>
             </div>
+           
             <div className="col-auto ml-auto">
-              <div className="row">
+              <div className="flex justify-end">
                 <div className="col-auto">
                   <Link to="tips"  className='btn btn-warning shadow-none'  >Tips</Link>
                 </div>
@@ -27,6 +28,10 @@ export default function Navbar() {
                 <div className="col-auto">
                   <Link to="patti" className='btn btn-warning shadow-none'  >Patti</Link>
                 </div>
+                
+                <figure className='w-2/12 h-auto '>
+                  <img src="XVo3.gif" className=' ' alt="" />
+                </figure>
               </div>
             </div>
           </div>
