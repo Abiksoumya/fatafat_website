@@ -19,7 +19,12 @@ function TableCellTwo({ key, point }) {
 }
 
 export default function Table({ heading, data, }) {
-  console.log("data inside table9999999999", data);
+  const parts = heading.split('/');
+  
+  // Rearrange the parts to the desired format
+  const dateFormat = `${parts[1]}/${parts[0]}/${parts[2]}`;
+  console.log("data inside table9999999999", dateFormat);
+
   const timeSlots = [
     "09:30",
     "11:00",
@@ -68,7 +73,7 @@ export default function Table({ heading, data, }) {
 
 
   const checkToday = (data) => {
-    // Get current date
+    console.log("checkToday", data);
     const currentDate = new Date();
 
     // Extract month, day, and year
@@ -77,7 +82,7 @@ export default function Table({ heading, data, }) {
     const year = currentDate.getFullYear();
 
     // Format the date
-    const formattedDate = `${month}/${day}/${year}`;
+    const formattedDate = `${day}/${month}/${year}`;
 
     console.log(formattedDate); // Output: "3/20/2024"
 
@@ -108,14 +113,14 @@ export default function Table({ heading, data, }) {
 
 
 
-      <div className={`table-responsive  tableTypeOne my-3 my-md-5 ${checkToday(heading) === 'Today Result' ? 'todayTable' : ''}`}>
+      <div className={`table-responsive  tableTypeOne my-3 my-md-5 ${checkToday(dateFormat) === 'Today Result' ? 'todayTable' : ''}`}>
         <table className="table mb-0">
           <tbody>
             <tr className="">
               <th rowSpan={3} className="dateBox">
                <div className="dateWrap">
                <h4 className="">
-                  {checkToday(heading)}
+                  {checkToday(dateFormat)}
                 </h4>
                </div>
 
