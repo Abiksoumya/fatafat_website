@@ -26,7 +26,7 @@ export default function Table({ heading, data, }) {
   console.log("data inside table9999999999", dateFormat);
 
   const timeSlots = [
-    "09:30",
+    "09:45",
     "11:00",
     "12:30",
     "02:00",
