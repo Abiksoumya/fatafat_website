@@ -9,7 +9,7 @@ export default function Info() {
           <hr />
           <h4>🤔🤫 NEW TIME 🤫🤔</h4>
           <h4>
-            <strong>1st=09:30 am 🕙</strong>
+            <strong>1st=09:45 am 🕙</strong>
           </h4>
           <h4>
             <strong>2nd=11:00 am 🕦</strong>
